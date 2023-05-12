@@ -293,3 +293,26 @@
   new PureCounter();
 
 })();
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const words = document.querySelectorAll(".word-cycle");
+  let currentIndex = 0;
+
+  function cycleWords() {
+    words[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % words.length;
+    words[currentIndex].classList.add("active");
+  }
+
+  function fadeInOut() {
+    setTimeout(() => {
+      cycleWords();
+      fadeInOut();
+    }, 2000); // Adjust the time interval in milliseconds as needed
+  }
+
+  words[0].classList.add("active");
+  fadeInOut();
+});
+

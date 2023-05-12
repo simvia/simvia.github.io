@@ -2405,3 +2405,132 @@ section {
   font-size: 13px;
   color: #012970;
 }
+.word-cycle {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  white-space: nowrap;
+}
+
+.word-cycle.active {
+  opacity: 1;
+}
+.word-container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  min-width: 10em; /* Adjust this value based on the longest cycling word */
+}
+
+.total-text, .word-container {
+  display: inline-flex;
+  align-items: baseline;
+  vertical-align: middle;
+}
+
+.word-container {
+  position: relative;
+  min-width: 10em; /* Adjust this value based on the longest cycling word */
+}
+
+.total-and-words {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.word-container {
+  position: relative;
+  min-width: 10em; /* Adjust this value based on the longest cycling word */
+}
+
+.word-cycle {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  white-space: nowrap;
+}
+
+.word-cycle.active {
+  opacity: 1;
+}
+
+.word-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.word-container {
+  position: relative;
+  min-width: 10em; /* Adjust this value based on the longest cycling word */
+}
+
+.header-wrapper {
+  text-align: center;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-wrapper {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: baseline;
+}
+
+.word-cycle {
+  display: none;
+  white-space: nowrap;
+}
+
+.word-cycle.active {
+  display: inline;
+}
+
+/* Add this new style */
+.word-container {
+  margin-left: -10px; /* Adjust the negative margin value as needed */
+}
+
+.header-wrapper {
+  text-align: center;
+}
+
+.phrase-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.word-cycle {
+  display: none;
+  white-space: nowrap;
+}
+
+.word-cycle.active {
+  display: inline;
+}
+
+
+.header-wrapper {
+  text-align: center;
+}
+
+.phrase-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.word-cycle {
+  display: none;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 2.3em;
+}
+
+.word-cycle.active {
+  display: inline;
+}
