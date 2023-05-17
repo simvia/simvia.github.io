@@ -237,6 +237,14 @@ section {
   background-color: lightgrey;
 }
 
+.navbar {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 
 .navbar a,
 .navbar a:focus {
