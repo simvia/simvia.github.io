@@ -233,6 +233,11 @@ section {
   position: relative;
 }
 
+.navbar {
+  background-color: lightgrey;
+}
+
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -2533,4 +2538,14 @@ section {
 
 .word-cycle.active {
   display: inline;
+}
+
+.logo_img {
+  width: 00px;
+  height: auto;
+}
+
+.phrase-container {
+  display: flex;
+  justify-content: center;
 }
