@@ -218,15 +218,8 @@ section {
 * Desktop Navigation 
 */
 .navbar {
-  margin: 0;
   padding: 0;
 }
-
-.logo {
-  margin: 0;
-  padding: 0;
-}
-
 
 .navbar ul {
   margin: 0;
@@ -241,7 +234,7 @@ section {
 }
 
 .navbar {
-  background-color: white;
+  background-color: grey;
 }
 
 .navbar {
@@ -2563,49 +2556,4 @@ section {
 .phrase-container {
   display: flex;
   justify-content: center;
-}
-
-.content {
-  display: flex;
-}
-
-.left-side-image {
-  width: 50%;
-}
-
-.right-side-text {
-  width: 50%;
-  /* Add your styles here for the text */
-}
-
-.menu-items {
-  margin-left: 0;   /* adjust this as needed */
-  padding-left: 0;  /* adjust this as needed */
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
-
-.logo-link {
-    flex-grow: 0;
-    margin-right: auto;
-}
-
-@media (max-width: 992px) {
-  .logo_img {
-    width: 80px;
-  }
-}
-
-@media (max-width: 768px) {
-  .logo_img {
-    width: 60px;
-  }
 }
