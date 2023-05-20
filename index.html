@@ -53,11 +53,13 @@
         <div data-role="Header" class="home-navbar-container">
           <div class="home-navbar">
             <div class="home-left-side">
-              <img
-                alt="image"
-                src="public/playground_assets/simvia_logo_plain.svg"
-                class="home-image"
-              />
+              <a href="index.html" class="home-navlink">
+                <img
+                  alt="image"
+                  src="public/playground_assets/simvia_logo_plain.svg"
+                  class="home-image"
+                />
+              </a>
               <div data-role="BurgerMenu" class="home-burger-menu">
                 <svg viewBox="0 0 1024 1024" class="home-icon">
                   <path
@@ -67,20 +69,21 @@
               </div>
               <div class="home-links-container">
                 <a href="#learn_more" class="home-link Anchor">About</a>
-                <a href="#team" class="home-link1 Anchor">Team</a>
-                <a href="#contact" class="home-link2 Anchor">Contact</a>
+                <a href="#team" class="home-link01 Anchor">Team</a>
+                <a href="#contact" class="home-link02 Anchor">Contact</a>
+                <a href="privacy.html" class="home-link03 Anchor">Privacy</a>
               </div>
             </div>
             <div class="home-right-side">
               <a href="#contact" class="home-cta-btn button Anchor">
-                Lets Talk
+                Contact Us
               </a>
             </div>
             <div data-role="MobileMenu" class="home-mobile-menu">
               <div class="home-container1">
                 <img
                   alt="image"
-                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  src="public/playground_assets/simvia_logo_plain.svg"
                   class="home-image1"
                 />
                 <div data-role="CloseMobileMenu" class="home-close-menu">
@@ -92,10 +95,10 @@
                 </div>
               </div>
               <div class="home-links-container1">
-                <a href="#resources" class="home-link3 Anchor">Resources</a>
-                <a href="#inspiration" class="home-link4 Anchor">Inspiration</a>
-                <span class="home-link5 Anchor">Process</span>
-                <span class="home-link6 Anchor">Our story</span>
+                <a href="#learn_more" class="home-link Anchor">About</a>
+                <a href="#team" class="home-link01 Anchor">Team</a>
+                <a href="#contact" class="home-link02 Anchor">Contact</a>
+                <a href="privacy.html" class="home-link03 Anchor">Privacy</a>
               </div>
             </div>
           </div>
@@ -136,6 +139,7 @@
             poster="https://play.teleporthq.io/static/svg/videoposter.svg"
             loop=""
             autoplay=""
+            muted=""
             class="home-video"
           ></video>
           <div class="home-cards-container">
@@ -205,34 +209,51 @@
         <div id="team" class="home-team">
           <div class="home-heading-container1">
             <h1 class="home-text07 Section-Heading">Meet the Team</h1>
-            <span class="home-text08">
-              Meet our brilliant team of computer vision experts dedicated to
-              revolutionizing the way we safeguard our surroundings with
-              cutting-edge technology.
-            </span>
+            <span class="home-text08">The brains behind our technology.</span>
           </div>
           <div class="home-cards-container1">
             <div class="home-team-card">
-              <div class="home-avatar-container">
-                <img
-                  src="public/playground_assets/vincenzo-macri-200h.jpg"
-                  alt="image"
-                  class="home-image3"
-                />
-              </div>
-              <span class="home-name Card-Heading">Vincenzo</span>
-              <span class="home-position">vincenzo@simvia.ai</span>
+              <a
+                href="https://vmacri.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link08"
+              >
+                <div class="home-avatar-container">
+                  <img
+                    src="public/playground_assets/vincenzo-macri-200h.jpg"
+                    alt="image"
+                    class="home-image3"
+                  />
+                </div>
+              </a>
+              <span class="home-name Card-Heading">Vincenzo Macri</span>
+              <span class="home-position">
+                Chief Executive Officer &amp; President
+              </span>
             </div>
             <div class="home-team-card1">
-              <div class="home-avatar-container1">
-                <img
-                  src="public/playground_assets/misha-200w.jpg"
-                  alt="image"
-                  class="home-image4"
-                />
-              </div>
-              <span class="home-name1 Card-Heading">Misha&nbsp;</span>
-              <span class="home-position1">misha@simvia.ai</span>
+              <a
+                href="https://justmisha.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link09"
+              >
+                <div class="home-avatar-container1">
+                  <img
+                    src="public/playground_assets/misha-200w.jpg"
+                    alt="image"
+                    class="home-image4"
+                  />
+                </div>
+              </a>
+              <span class="home-name1 Card-Heading">
+                <span class="Card-Heading">Misha&nbsp;</span>
+                <span>Klopukh&nbsp;</span>
+              </span>
+              <span class="home-position1">
+                Vice President of Product Development
+              </span>
             </div>
             <div class="home-team-card2">
               <div class="home-avatar-container2">
@@ -242,8 +263,12 @@
                   class="home-image5"
                 />
               </div>
-              <span class="home-name2 Card-Heading">Elan</span>
-              <span class="home-position2">elan@simvia.ai</span>
+              <span class="home-name2 Card-Heading">Elan Barenholtz</span>
+              <span class="home-position2">
+                <span>Vice President</span>
+                <br />
+                <span>of Communications</span>
+              </span>
             </div>
             <div class="home-team-card3">
               <div class="home-avatar-container3">
@@ -253,39 +278,46 @@
                   class="home-image6"
                 />
               </div>
-              <span class="home-name3 Card-Heading">Will</span>
-              <span class="home-position3">will@simvia.ai</span>
+              <span class="home-name3 Card-Heading">William Hahn</span>
+              <span class="home-position3">
+                Chief Technology Officer &amp; Vice President of Engineering
+              </span>
             </div>
           </div>
         </div>
         <div class="home-section-separator1"></div>
         <div class="home-section-separator2"></div>
         <div id="contact" class="home-get-in-touch">
-          <h2 class="home-text09 Section-Heading">Inqueries</h2>
+          <h2 class="home-text14 Section-Heading">Inquiries</h2>
           <div class="home-content-container1">
             <div class="home-form-container">
-              <span class="home-heading4 BigCard-Heading">
-                Send us a message
-              </span>
-              <input
-                type="text"
-                required="true"
-                placeholder="Name"
-                class="home-name4 input"
-              />
-              <input
-                type="text"
-                required="true"
-                placeholder="E-mail"
-                class="home-email input"
-              />
-              <textarea
-                placeholder="Your Message"
-                class="home-message textarea"
-              ></textarea>
-              <button type="submit" class="home-cta-btn2 Anchor button">
-                SEND
-              </button>
+              <form action="https://formspree.io/f/mbjebnaa" method="POST">
+                <span class="home-heading4 BigCard-Heading">
+                  Interested? Send us a message
+                </span>
+                <input
+                  type="text"
+                  required="true"
+                  name="name"
+                  placeholder="Name"
+                  class="home-name4 input"
+                />
+                <input
+                  type="text"
+                  required="true"
+                  name="_replyto"
+                  placeholder="E-mail"
+                  class="home-email input"
+                />
+                <textarea
+                  placeholder="Your Message"
+                  name="message"
+                  class="home-message textarea"
+                ></textarea>
+                <button type="submit" class="home-cta-btn2 Anchor button">
+                  SEND
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -298,9 +330,13 @@
                   d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
                 ></path>
               </svg>
-              <span class="Anchor">
+              <a href="index.html" class="home-link10 Anchor">
                 Copyright, 2023&nbsp; Simvia Technologies, LLC.
-              </span>
+              </a>
+              <a href="privacy.html" class="home-link11">
+                <span class="Anchor">&nbsp; |&nbsp;</span>
+                <span>Privacy</span>
+              </a>
             </div>
           </div>
         </div>
