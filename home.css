@@ -195,7 +195,7 @@
   flex-direction: column;
 }
 .home-image2 {
-  width: 500px;
+  width: 80%;
   height: auto;
   align-self: center;
   object-fit: cover;
